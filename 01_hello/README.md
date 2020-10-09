@@ -13,5 +13,6 @@ hello cython.
 
 To use ctypes, you need to load the .so file at first, for linux.
 
-```
+```python
+libc = cdll.LoadLibrary('libc.so.6')
 ```
