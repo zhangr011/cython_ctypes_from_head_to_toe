@@ -10,3 +10,8 @@ Which will leave a file in your local directory called hello_cython.so in unix o
 >>> import hello_cython
 hello cython.
 ```
+
+To use ctypes, you need to load the .so file at first, for linux.
+
+```
+```
